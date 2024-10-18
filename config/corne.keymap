@@ -9,7 +9,6 @@
   // 21 backlight + 6 glowlight
 };
 
-
 #define TAPPING_TERM 200
 
 / {
