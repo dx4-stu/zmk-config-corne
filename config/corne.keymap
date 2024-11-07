@@ -2,9 +2,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
-CONFIG_ZMK_RGB_UNDERGLOW=y
-CONFIG_WS2812_STRIP=y
-CONFIG_ZMK_DISPLAY=y
+
 &led_strip {
   chain-length = <0>;
   // chain-length = <27>;
