@@ -1,6 +1,6 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  base:
+  BASE:
   - {t: TAB, h: Ctl+Sft+ LALT}
   - Q
   - W
@@ -38,13 +38,13 @@ layers:
   - /
   - LEFT ALT
   - LEFT GUI
-  - nav
+  - NAV
   - BSPC
   - SPACE
-  - symbols
+  - SYMBOLS
   - ENTER
-  symbols:
-  - {t: ▽, type: trans}
+  SYMBOLS:
+  - ESC
   - '1'
   - '2'
   - '3'
@@ -56,7 +56,7 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - ESC
+  - {t: ▽, type: trans}
   - '!'
   - '@'
   - '#'
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  nav:
+  NAV:
   - Gui+Ctl+ TAB
   - {t: ▽, type: trans}
   - Gui+ [
@@ -129,7 +129,7 @@ layers:
   - Ctl+Gui+ SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  extended:
+  EXT:
   - {t: ▽, type: trans}
   - F1
   - F2
@@ -150,22 +150,22 @@ layers:
   - VOL UP
   - BRIGHTNESS DEC
   - BRIGHTNESS INC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&bl BL_TOG'
+  - '&bl BL_CYCLE'
+  - '&bl BL_SET 100'
+  - RGB EFR
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGB TOG
+  - RGB HUI
+  - RGB HUD
+  - RGB SAI
+  - RGB SAD
+  - RGB EFF
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
