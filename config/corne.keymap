@@ -1,5 +1,4 @@
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
@@ -91,10 +90,10 @@
         nav_layer {
             label = "NAV";
             bindings = <
-&bl BL_TOG       &bl BL_INC       &bl BL_DEC       &bl BL_CYCLE     &bl BL_SET 100   &trans                              &kp LA(LEFT)       &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &kp HOME  &kp PAGE_UP
-&rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &rgb_ug RGB_BRI                     &kp LEFT           &kp DOWN      &kp UP      &kp RIGHT      &kp END   &kp PAGE_DOWN
-&rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(110,91,61)    &kp LG(LEFT)       &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &kp DEL   &trans
-                                                   &trans           &trans           &trans                              &kp LC(LG(SPACE))  &trans        &trans
+&rgb_ug RGB_TOG                  &rgb_ug RGB_HUI                   &rgb_ug RGB_HUD                   &rgb_ug RGB_SAI                   &rgb_ug RGB_SAD                   &rgb_ug RGB_BRI                     &kp LA(LEFT)       &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &kp HOME  &kp PAGE_UP
+&rgb_ug RGB_BRD                  &rgb_ug RGB_SPI                   &rgb_ug RGB_SPD                   &rgb_ug RGB_EFF                   &rgb_ug RGB_EFR                   &rgb_ug RGB_COLOR_HSB(0,96,48)      &kp LEFT           &kp DOWN      &kp UP      &kp RIGHT      &kp END   &kp PAGE_DOWN
+&rgb_ug RGB_COLOR_HSB(35,98,51)  &rgb_ug RGB_COLOR_HSB(55,100,53)  &rgb_ug RGB_COLOR_HSB(287,91,52)  &rgb_ug RGB_COLOR_HSB(305,91,54)  &rgb_ug RGB_COLOR_HSB(188,88,55)  &rgb_ug RGB_COLOR_HSB(101,85,48)    &kp LG(LEFT)       &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &kp DEL   &trans
+                                                                                                     &trans                            &trans                            &trans                              &kp LC(LG(SPACE))  &trans        &trans
             >;
         };
 
