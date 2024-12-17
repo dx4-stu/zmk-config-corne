@@ -479,36 +479,38 @@ path.combo {
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;bl</tspan><tspan x="0" dy="1.2em">BL_TOG</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">TOG</tspan>
 </text>
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;bl</tspan><tspan x="0" dy="1.2em">BL_INC</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">HUI</tspan>
 </text>
 </g>
 <g transform="translate(140, 35)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;bl</tspan><tspan x="0" dy="1.2em">BL_DEC</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">HUD</tspan>
 </text>
 </g>
 <g transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 88%">&amp;bl</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">BL_CYCLE</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">SAI</tspan>
 </text>
 </g>
 <g transform="translate(252, 35)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">&amp;bl</tspan><tspan x="0" dy="1.2em">BL_SET</tspan><tspan x="0" dy="1.2em">100</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">SAD</tspan>
 </text>
 </g>
-<g transform="translate(308, 42)" class="key trans keypos-5">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(308, 42)" class="key keypos-5">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">BRI</tspan>
+</text>
 </g>
 <g transform="translate(532, 42)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -547,37 +549,37 @@ path.combo {
 <g transform="translate(28, 105)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">TOG</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">BRD</tspan>
 </text>
 </g>
 <g transform="translate(84, 105)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">HUI</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">SPI</tspan>
 </text>
 </g>
 <g transform="translate(140, 91)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">HUD</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">SPD</tspan>
 </text>
 </g>
 <g transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">SAI</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">EFF</tspan>
 </text>
 </g>
 <g transform="translate(252, 91)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">SAD</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">EFR</tspan>
 </text>
 </g>
 <g transform="translate(308, 98)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">BRI</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 64%">RGB</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">COLOR</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">HSB(0,96,4…</tspan>
 </text>
 </g>
 <g transform="translate(532, 98)" class="key keypos-18">
@@ -609,37 +611,37 @@ path.combo {
 <g transform="translate(28, 161)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">BRD</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 64%">RGB</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">COLOR</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">HSB(35,98,…</tspan>
 </text>
 </g>
 <g transform="translate(84, 161)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">SPI</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 64%">RGB</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">COLOR</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">HSB(55,100…</tspan>
 </text>
 </g>
 <g transform="translate(140, 147)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">SPD</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 64%">RGB</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">COLOR</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">HSB(287,91…</tspan>
 </text>
 </g>
 <g transform="translate(196, 140)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">EFF</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 64%">RGB</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">COLOR</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">HSB(305,91…</tspan>
 </text>
 </g>
 <g transform="translate(252, 147)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">EFR</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 64%">RGB</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">COLOR</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">HSB(188,88…</tspan>
 </text>
 </g>
 <g transform="translate(308, 154)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 64%">RGB</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">COLOR</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">HSB(110,91…</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 64%">RGB</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">COLOR</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">HSB(101,85…</tspan>
 </text>
 </g>
 <g transform="translate(532, 154)" class="key keypos-30">

@@ -46,36 +46,36 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   NAV:
-  - '&bl BL_TOG'
-  - '&bl BL_INC'
-  - '&bl BL_DEC'
-  - '&bl BL_CYCLE'
-  - '&bl BL_SET 100'
-  - {t: ▽, type: trans}
-  - Alt+ LEFT
-  - Alt+ DOWN
-  - Alt+ UP
-  - Alt+ RIGHT
-  - HOME
-  - PAGE UP
   - RGB TOG
   - RGB HUI
   - RGB HUD
   - RGB SAI
   - RGB SAD
   - RGB BRI
+  - Alt+ LEFT
+  - Alt+ DOWN
+  - Alt+ UP
+  - Alt+ RIGHT
+  - HOME
+  - PAGE UP
+  - RGB BRD
+  - RGB SPI
+  - RGB SPD
+  - RGB EFF
+  - RGB EFR
+  - RGB COLOR HSB(0,96,48)
   - LEFT
   - DOWN
   - UP
   - RIGHT
   - END
   - PAGE DOWN
-  - RGB BRD
-  - RGB SPI
-  - RGB SPD
-  - RGB EFF
-  - RGB EFR
-  - RGB COLOR HSB(110,91,61)
+  - RGB COLOR HSB(35,98,51)
+  - RGB COLOR HSB(55,100,53)
+  - RGB COLOR HSB(287,91,52)
+  - RGB COLOR HSB(305,91,54)
+  - RGB COLOR HSB(188,88,55)
+  - RGB COLOR HSB(101,85,48)
   - Gui+ LEFT
   - Gui+ DOWN
   - Gui+ UP
